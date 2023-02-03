@@ -12,7 +12,7 @@ const htmlButton = document.querySelector("#button");
 //- 2: stocker l'élement HTML span
 const htmlSpan = document.querySelector("#counter");
 
-// je défini le compteur
+// je définis le compteur
 let compteur = 0;
 
 /*-3: On défini la fonction :
