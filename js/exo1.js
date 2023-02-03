@@ -10,8 +10,8 @@ let compteur = 0;
 
 // Je crée la fonction qui incrémente le compteur
 function handleClick() {
-    compteur = compteur++;
-    spanHTML.textContent(compteur);
+    compteur++;
+    spanHTML.textContent = compteur;
 }
 
 // Je n'oublie pas mon "écouteur"
